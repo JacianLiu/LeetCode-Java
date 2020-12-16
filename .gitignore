@@ -93,5 +93,6 @@ buildNumber.properties
 .classpath
 .settings
 .metadata
-**/all.json
-**/translation.json
+# LeetCode插件生成文件
+all.json
+translation.json
