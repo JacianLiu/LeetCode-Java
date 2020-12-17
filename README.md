@@ -5,3 +5,5 @@
 [[1]两数之和](/src/com/jacian/leetcode/editor/cn/[1]两数之和/TwoSum.java)
 
 [[20]有效的括号](/src/com/jacian/leetcode/editor/cn/[20]有效的括号/ValidParentheses.java)
+
+[[26]删除排序数组中的重复项](/src/com/jacian/leetcode/editor/cn/[26]删除排序数组中的重复项/RemoveDuplicatesFromSortedArray.java)
