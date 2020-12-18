@@ -9,3 +9,5 @@
 [[26]删除排序数组中的重复项](/src/com/jacian/leetcode/editor/cn/[26]删除排序数组中的重复项/RemoveDuplicatesFromSortedArray.java)
 
 [[389]找不同](/src/com/jacian/leetcode/editor/cn/[389]找不同/FindTheDifference.java)
+
+[[136]只出现一次的数字](/src/com/jacian/leetcode/editor/cn/[136]只出现一次的数字/SingleNumber.java)
