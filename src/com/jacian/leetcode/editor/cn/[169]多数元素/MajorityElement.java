@@ -25,31 +25,24 @@ import java.util.Map;
 public class MajorityElement {
     public static void main(String[] args) {
         Solution solution = new MajorityElement().new Solution();
-        System.out.println(solution.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
+        System.out.println(solution.majorityElement(new int[]{2, 2, 1, 1, 2}));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int majorityElement(int[] nums) {
-            int n = nums.length;
-            if (n == 1) {
-                return nums[0];
-            }
-            Map<Integer, Integer> map = new HashMap<>();
-            for (int num : nums) {
-                if (map.containsKey(num)) {
-                    Integer numCount = map.get(num);
-                    numCount += 1;
-                    if (numCount > n / 2) {
-                        return num;
-                    }
-                    map.put(num, numCount);
 
+            int ret = 0, cnt = 0;
+            for (int num : nums) {
+                if (cnt == 0) {
+                    ret = num;
+                    cnt = 1;
                 } else {
-                    map.put(num, 1);
+                    cnt = ret == num ? ++cnt : --cnt;
                 }
             }
-            return -1;
+
+            return ret;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
