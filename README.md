@@ -13,3 +13,5 @@
 [[136]只出现一次的数字](/src/com/jacian/leetcode/editor/cn/[136]只出现一次的数字/SingleNumber.java)
 
 [[231]2的幂](/src/com/jacian/leetcode/editor/cn/[231]2的幂/PowerOfTwo.java)
+
+[[169]多数元素](/src/com/jacian/leetcode/editor/cn/[169]多数元素/MajorityElement.java)
