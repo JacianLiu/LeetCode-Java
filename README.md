@@ -15,3 +15,5 @@
 [[231]2的幂](/src/com/jacian/leetcode/editor/cn/[231]2的幂/PowerOfTwo.java)
 
 [[169]多数元素](/src/com/jacian/leetcode/editor/cn/[169]多数元素/MajorityElement.java)
+
+[[258]各位相加](/src/com/jacian/leetcode/editor/cn/[258]各位相加/AddDigits.java)
